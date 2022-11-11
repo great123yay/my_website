@@ -49,12 +49,20 @@ li a:hover {
 .col-sm-6{
   border-radius: 8px;
   background-color: #23153C ;
-
+  color: white;
+  margin:15px;
+  text-align: center;
 }
+
 .col-sm-3{
   margin: 0;
   padding: 0;
 }
-h1{
-  align-self: center;
+.para{
+  background-color: #23153C;
+  border-radius: 10px;
+  margin-top: 40px;
+  color: white;
+  height: 300px;
+  font-size: 16px;
 }
