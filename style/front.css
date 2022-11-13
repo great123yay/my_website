@@ -1,3 +1,5 @@
+@import url('https://fonts.googleapis.com/css2?family=Oxygen&display=swap');
+
 body, html{
   margin: 0;
   height: 100%;
@@ -63,4 +65,10 @@ li a:hover {
   height: 300px;
   font-size: 16px;
   padding: 20px;
+}
+.row{
+  justify-content: center;
+}
+body, h1{
+  font-family:'Oxygen', sans-serif;
 }

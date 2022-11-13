@@ -1,7 +1,7 @@
 import * as THREE from "node_modules/three"
 import NET from "node_modules/vanta/dist/vanta.net.min.js"
 
-const body = document.getElementByClassName("fluid-container")
+const body = document.getElementByTagName('main')
 
 VANTA.NET({
   el: body,
