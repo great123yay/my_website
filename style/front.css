@@ -12,13 +12,9 @@ body, html{
   padding: 0;
   height: 150px;
 }
-img{
-  display: flex;
-  width: 100%;
-  object-fit: fill;
-}
 .navigation{
   margin-bottom: 0;
+  width: 100%;
 }
 
 ul {
@@ -52,17 +48,19 @@ li a:hover {
   color: white;
   margin:15px;
   text-align: center;
+  justify-content: center;
 }
 
 .col-sm-3{
   margin: 0;
   padding: 0;
 }
-.para{
+#para{
   background-color: #23153C;
   border-radius: 10px;
   margin-top: 40px;
   color: white;
   height: 300px;
   font-size: 16px;
+  padding: 20px;
 }

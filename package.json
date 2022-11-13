@@ -1,0 +1,25 @@
+{
+  "name": "jack_website",
+  "version": "1.0.0",
+  "description": "packages",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/great123yay/my_website.git"
+  },
+  "author": "Jack Lin",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/great123yay/my_website/issues"
+  },
+  "homepage": "https://github.com/great123yay/my_website#readme",
+  "dependencies": {
+    "bootstrap": "^5.2.2",
+    "jquery": "^3.6.1",
+    "three": "^0.146.0",
+    "vanta": "^0.5.24"
+  }
+}
