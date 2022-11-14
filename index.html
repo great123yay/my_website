@@ -6,12 +6,14 @@
   <script src="node_modules/jquery/dist/jquery.min.js"></script>
   <script src="node_modules/bootstrap/dist/js/bootstrap.min.js"></script>
   <script type="text/javascript" src="js/app.js"></script>
+  <script type="text/javascript" src="node_modules/vanta/dist/vanta.net.min.js"></script>
+  <script type="text/javascript" src="node_modules/three/build/three.min.js"></script>
   <link rel="icon" href="images/icon.png">
   <meta charset="utf-8">
   <title>Unit 102</title>
 </head>
 <body>
-  <div class="fluid-container">
+  <div class="fluid-container" id="background">
     <nav class="navigation">
       <ul>
         <li><a href="index.html">Home</a></li>
@@ -33,7 +35,23 @@
         </div>
       </div>
     </main>
+    <script>
+      VANTA.NET({
+        el: "body",
+        THREE,
+        mouseControls: true,
+        touchControls: true,
+        gyroControls: false,
+        minHeight: 200.00,
+        minWidth: 200.00,
+        scale: 1.00,
+        scaleMobile: 1.00,
+        color: 0x3fff77,
+        points: 20.00,
+        maxDistance: 27.00,
+        spacing: 17.00
+      })
+      </script>
   </div>
-  <script type="module" src="js/NETfunc.js"></script>
 </body>
 </html>
